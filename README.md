@@ -9,9 +9,16 @@
 `$ react-native link react-native-rn-apple-pay-button`
 
 ## Usage
-```javascript
-import RnApplePayButton from 'react-native-rn-apple-pay-button';
 
-// TODO: What to do with the module?
-RnApplePayButton;
+```javascript
+import { ApplePayButton } from 'react-native-rn-apple-pay-button';
+
+// Usage
+<ApplePayButton
+    buttonStyle="black"
+    type="donate"
+    width={200}
+    height={45}
+    onPress={handleApplePay}
+/>
 ```
