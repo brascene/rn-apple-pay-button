@@ -2,22 +2,24 @@
   "name": "react-native-rn-apple-pay-button",
   "title": "React Native Rn Apple Pay Button",
   "version": "1.0.0",
-  "description": "TODO",
+  "description": "Apple Pay Button Component",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-rn-apple-pay-button.git",
-    "baseUrl": "https://github.com/github_account/react-native-rn-apple-pay-button"
+    "url": "git+https://github.com/brascene/rn-apple-pay-button.git",
+    "baseUrl": "https://github.com/brascene/rn-apple-pay-button"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "apple-pay",
+    "iOS"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "Dino Pelic",
+    "email": "bra.scene@gmail.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",

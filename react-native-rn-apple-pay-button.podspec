@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   react-native-rn-apple-pay-button
                    DESC
-  s.homepage     = "https://github.com/github_account/react-native-rn-apple-pay-button"
+  s.homepage     = "https://github.com/brascene/rn-apple-pay-button"
   s.license      = "MIT"
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
   s.authors      = { "Your Name" => "yourname@email.com" }
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://github.com/github_account/react-native-rn-apple-pay-button.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/brascene/rn-apple-pay-button.git", :tag => "master" }
 
   s.source_files = "ios/**/*.{h,m,swift}"
   s.requires_arc = true
