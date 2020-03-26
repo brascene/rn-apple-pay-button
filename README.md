@@ -2,11 +2,13 @@
 
 ## Getting started
 
-`$ npm install react-native-rn-apple-pay-button --save`
+`npm install react-native-rn-apple-pay-button --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-rn-apple-pay-button`
+`react-native link react-native-rn-apple-pay-button`
+
+`cd ios/ && pod install`
 
 ## Usage
 
