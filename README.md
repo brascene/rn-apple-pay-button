@@ -24,3 +24,5 @@ import { ApplePayButton } from 'react-native-rn-apple-pay-button';
     onPress={handleApplePay}
 />
 ```
+## Supported button types
+https://developer.apple.com/documentation/passkit/pkpaymentbuttontype
