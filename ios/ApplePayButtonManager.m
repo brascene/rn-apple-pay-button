@@ -23,6 +23,13 @@ RCT_CUSTOM_VIEW_PROPERTY(buttonType, NSString, ApplePayButtonView)
   }
 }
 
+RCT_CUSTOM_VIEW_PROPERTY(cornerRadius, CGFloat, ApplePayButtonView)
+{
+    if (json) {
+        [view setButtonRadius:[RCTConvert NSString:json]];
+    }
+}
+
 RCT_CUSTOM_VIEW_PROPERTY(buttonStyle, NSString, ApplePayButtonView)
 {
   if (json) {

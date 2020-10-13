@@ -7,7 +7,8 @@ export class ApplePayButton extends React.Component {
   static defaultProps = {
     buttonStyle: "black",
     buttonType: "plain",
-    height: 44
+    height: 44,
+    cornerRadius: 4
   };
 
   render() {
@@ -15,6 +16,7 @@ export class ApplePayButton extends React.Component {
       <APButtonComponent
         buttonStyle={this.props.buttonStyle}
         buttonType={this.props.type}
+        cornerRadius={this.props.cornerRadius}
         onPress={this.props.onPress}
         width={this.props.width}
         height={this.props.height}

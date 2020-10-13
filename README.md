@@ -19,6 +19,7 @@ import { ApplePayButton } from 'react-native-rn-apple-pay-button';
 <ApplePayButton
     buttonStyle="black"
     type="donate"
+    cornerRadius={8} // Default value is 4.0
     width={200}
     height={45}
     onPress={handleApplePay}

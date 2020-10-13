@@ -16,11 +16,13 @@ NSString * const DEFAULT_BUTTON_STYLE = @"black";
 @synthesize buttonType = _buttonType;
 @synthesize buttonStyle = _buttonStyle;
 @synthesize button = _button;
+@synthesize cornerRadius = _cornerRadius
 
 - (instancetype) init {
   self = [super init];
   
   [self setButtonType:DEFAULT_BUTTON_TYPE andStyle:DEFAULT_BUTTON_STYLE];
+  [self setButtonRadius: (CGFloat *)4];
   
   return self;
 }
@@ -39,6 +41,14 @@ NSString * const DEFAULT_BUTTON_STYLE = @"black";
   }
   
   _buttonStyle = value;
+}
+
+- (void)setButtonRadius: (CGFloat *) value {
+    if (_cornerRadius != value) {
+        [self setCornerRadius:value];
+    }
+    
+    _cornerRadius = value;
 }
 
 - (void)setButtonType:(NSString *) buttonType andStyle:(NSString *) buttonStyle {
@@ -77,6 +87,7 @@ NSString * const DEFAULT_BUTTON_STYLE = @"black";
 
   _button = [[PKPaymentButton alloc] initWithPaymentButtonType:type paymentButtonStyle:style];
   [_button addTarget:self action:@selector(touchUpInside:) forControlEvents:UIControlEventTouchUpInside];
+  [_button setCornerRadius:cornerRadius]
   
   [self addSubview:_button];
 }
