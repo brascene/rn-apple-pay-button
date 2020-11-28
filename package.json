@@ -1,7 +1,7 @@
 {
   "name": "react-native-rn-apple-pay-button",
   "title": "React Native Rn Apple Pay Button",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Apple Pay Button Component",
   "main": "index.js",
   "scripts": {
