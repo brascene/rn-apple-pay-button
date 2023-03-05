@@ -1,5 +1,5 @@
 import * as React from "react";
-import { NativeModules, requireNativeComponent } from "react-native";
+import { requireNativeComponent } from "react-native";
 
 const APButtonComponent = requireNativeComponent("APButton");
 
@@ -8,7 +8,7 @@ export class ApplePayButton extends React.Component {
     buttonStyle: "black",
     buttonType: "plain",
     height: 44,
-    cornerRadius: 4
+    cornerRadius: 4,
   };
 
   render() {
